@@ -2,12 +2,12 @@
 
 require.config({
 	paths: {
-		angular: '../bower_components/angular/angular',
-		uiRouter: '../bower_components/angular-ui-router/release/angular-ui-router.min',
+		angular: './lib/angular.min',
+		uiRouter: './lib/angular-ui-router.min',
 		jquery:'./lib/jquery-1.9.1.min',
 		jDialog:'./lib/jDialog',
 		jCloud:'./lib/jqcloud-1.0.4.min',
-		text: '../bower_components/requirejs-text/text'
+		text: './lib/requirejs.text'
 	},
 	shim: {
 		'angular' : {'exports' : 'angular'},
